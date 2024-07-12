@@ -1,5 +1,5 @@
-import logoValorem from '@/assets/introPage/logo1.png'
-import Image from 'next/image'
+import logoValorem from '@/assets/introPage/logo1.png';
+import Image from 'next/image';
 
 export const IntroPage = () => {
     return(
