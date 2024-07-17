@@ -2,12 +2,17 @@ import Image from "next/image"
 import logoValorem from '@/assets/introPage/logoValorem.png';
 import Logolsi from '@/assets/introPage/logolsi.svg'
 import { ButtonSidebar } from "./buttonsSidebar/buttonSidebar";
-import DashboardIcon from '@/assets/iconsSidebar/nao selecionados/dashboardselect.png'
-import ComponentsIcon from '@/assets/iconsSidebar/nao selecionados/componentes.png'
-import MaodeObraIcon from '@/assets/iconsSidebar/nao selecionados/maodeobra.png'
-import OrcamentosIcon from '@/assets/iconsSidebar/nao selecionados/orcamentos.png'
-import ProjetosIcon from '@/assets/iconsSidebar/nao selecionados/projetos.png'
-import ConfigIcon from '@/assets/iconsSidebar/nao selecionados/configs.png'
+
+import IconDashboard from '@/assets/iconsSidebar/nao selecionados/dashboard.svg';
+import IconComponents from '@/assets/iconsSidebar/nao selecionados/components.svg';
+import IconMaoDeObra from '@/assets/iconsSidebar/nao selecionados/maodeobra.svg';
+import IconOrcamentos from '@/assets/iconsSidebar/nao selecionados/orçamentos.svg';
+import IconProjetos from '@/assets/iconsSidebar/nao selecionados/projetos.svg';
+import IconConfig from '@/assets/iconsSidebar/nao selecionados/config.svg';
+
+
+
+
 
 export const SideBar = () => {
     return (
@@ -34,12 +39,12 @@ export const SideBar = () => {
                 </div>
 
                 <div className="flex flex-col items-center pt-8">
-                    <ButtonSidebar src={DashboardIcon} content={"Dashboard"} />
-                    <ButtonSidebar src={''} content={"Componentes"} />
-                    <ButtonSidebar src={''} content={"Mão de obra"} />
-                    <ButtonSidebar src={''} content={"Orçamentos"} />
-                    <ButtonSidebar src={''} content={"Projetos"} />
-                    <ButtonSidebar src={''} content={"Configurações"} />
+                    <ButtonSidebar src={IconDashboard} content={"Dashboard"} />
+                    <ButtonSidebar src={IconComponents} content={"Componentes"} />
+                    <ButtonSidebar src={IconMaoDeObra} content={"Mão de obra"} />
+                    <ButtonSidebar src={IconOrcamentos} content={"Orçamentos"} />
+                    <ButtonSidebar src={IconProjetos} content={"Projetos"} />
+                    <ButtonSidebar src={IconConfig} content={"Configurações"} />
                 </div>
             </div>
 
